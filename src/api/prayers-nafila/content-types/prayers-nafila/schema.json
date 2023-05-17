@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prayers_nafilas",
+  "info": {
+    "singularName": "prayers-nafila",
+    "pluralName": "prayers-nafilas",
+    "displayName": "Prayers-Nafila",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "reward": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "raqaat": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "RaqaatType": {
+      "type": "enumeration",
+      "enum": [
+        "defined",
+        "atLeast",
+        "open"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
